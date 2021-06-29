@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+ }
+body {
+    margin: 0;
+    margin-top: 100px;
+    padding: 0;
+}
+header {
+    padding: 25px 4% 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00c8de;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1 {
+    margin: 0; padding: 0;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    display: flex;
+}
+.logo{
+    margin: 9px 0 0 10px;
+}
+header a {	
+    color: #fff;
+}
+header nav {
+    margin: 0 0 0 auto;
+ }
+header ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+header li {
+    margin: 0 0 0 15px;
+    font-size: 14px;
+}
+
+.simple_square_btn2 {
+	display: block;
+	position: relative;
+	width: 70px;
+	text-align: center;
+	text-decoration: none;
+	color: #1B1B1B;
+	background: #fff;
+	border:1px solid #1B1B1B;
+    font-size: 14px;
+    margin: 0 0 2px 12px;
+}
+.simple_square_btn2:hover {
+	 background: #1B1B1B;
+         color: #fff;
+	 cursor: pointer;
+	 text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 4% 10px; 
+    text-align: center;
+    background-color: #00c8de;
+    position: absolute;/*絶対位置*/
+    bottom: 0; /*下に固定*/
+}
+footer p{
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 5px 0;
+}
+
+#form{
+    width: 450px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #555;
+    }
+  
+  form p{
+      font-size: 14px;
+      }
+  
+  .form-title{
+    text-align: center;
+    }
+  
+  .mail,.pass{
+    margin-bottom: 20px;
+    }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 350px;
+    padding: 4px;
+    font-size: 14px;
+    }
+      
+  .submit{
+    text-align: right;
+    }
+
+  .check{
+    text-align: center;
+  }
+  
+  /* font */
+  #form p{
+    color: #077685;
+    font-weight: bold;
+    }
+  
+  #form .form-title{
+    font-family: Arial;
+    font-size: 30px;
+    color: #4eb4c2;
+    }
+  
+  /* skin */
+  #form{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    }
+  
+  #form .form-title{
+    padding-bottom: 6px;
+    border-bottom: 2px solid #4eb4c2;
+    margin-bottom: 20px;
+    }
+  
+  .submit button{
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 8px 6px #e3e3e3;
+    -moz-box-shadow: 0px 8px 6px #e3e3e3;
+    box-shadow: 0px 8px 6px #e3e3e3;
+    border: solid #f5fdff 4px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#61c7e0), to(#418da8));
+    background: -moz-linear-gradient(top, #61c7e0, #418da8);
+    }
+  .submit input:hover{
+    background: #37a4bf;
+   }

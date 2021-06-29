@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+ }
+body {
+    margin: 0;
+    margin-top: 100px;
+    padding: 0;
+}
+header {
+    padding: 25px 4% 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00c8de;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1 {
+    margin: 0; padding: 0;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    display: flex;
+}
+.logo{
+    margin: 9px 0 0 10px;
+}
+header a {	
+    color: #fff;
+}
+header nav {
+    margin: 0 0 0 auto;
+ }
+header ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+header li {
+    margin: 0 0 0 15px;
+    font-size: 14px;
+}
+
+.simple_square_btn2 {
+	display: block;
+	position: relative;
+	width: 75px;
+	text-align: center;
+	text-decoration: none;
+	color: #1B1B1B;
+	background: #fff;
+	border:1px solid #1B1B1B;
+    font-size: 14px;
+    margin: 0 0 2px 12px;
+}
+.simple_square_btn2:hover {
+	 background: #1B1B1B;
+         color: #fff;
+	 cursor: pointer;
+	 text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 4% 10px; 
+    text-align: center;
+    background-color: #00c8de;
+    position: absolute;/*絶対位置*/
+    bottom: 0; /*下に固定*/
+}
+footer p{
+    color: #fff;
+    font-size: 14px;
+    margin: 0 0 5px 0;
+}
